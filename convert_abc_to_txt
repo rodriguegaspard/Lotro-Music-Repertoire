@@ -1,6 +1,0 @@
-#!/bin/sh
-# Converts .abc files to .txt
-
-for file; do
-	NEW_FILENAME="${file%.*}"'.txt'
-done

@@ -3,5 +3,5 @@
 
 for file; do
 	NEW_FILENAME="${file%.*}"'.txt'
-	rename $NEW_FILENAME $file
+	rename -v .abc .txt $file
 done
